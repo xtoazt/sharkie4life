@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://allwebgames.com/';
+const nggUrl = 'https://playhop.com/dist-app/387326?utm_source=distrib&utm_medium=bubbleshooternet/';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
