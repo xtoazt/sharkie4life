@@ -3,7 +3,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 
 const app = express();
 
-const nggUrl = 'https://playhop.com/dist-app/387326?utm_source=distrib&utm_medium=bubbleshooternet/';
+const nggUrl = 'https://assets.shuttleproxy.com/';
 
 const proxy = createProxyMiddleware({
   target: nggUrl,
